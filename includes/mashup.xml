@@ -1,1 +1,19 @@
-
+<map proto = "1.4.2">
+<gamemode>arcade</gamemode>
+<teams>
+  <team id="players" color="gold" max="200">Players</team>
+</teams>
+<wools team="players" craftable="false" location="0,0,0">
+</wools>
+<mobs>
+  <filter>
+    <always/>
+  </filter>
+</mobs>
+<itemremove>
+  <item>string</item>
+  <item>red rose</item>
+  <item>yellow flower</item>
+</itemremove>
+<respawn auto="true"/>
+</map>
